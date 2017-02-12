@@ -1,0 +1,86 @@
+# vsim -L ../../../bin -do ./util/simulate-do -c -lic_plus -quiet -novopt testbench 
+# Refreshing /afs/glue.umd.edu/home/glue/a/n/ananya/home/enpm674_user/Project2/part3_latest/test/test-fir-functionality/test02/work.testbench
+# do ./util/simulate-do 
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 0, reset: 0
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 0
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 0
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+# clk: 1, reset: 1
+# data_out =     4
+# 
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  0}
+#   1   0   0   0   0 
+# data_out =     9
+# 
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  0,  1}
+#   1   1   0   0   0 
+# data_out =    15
+# 
+# clk: 1, reset: 1
+# clk: 0, reset: 1
+# '{ 0,  0,  1,  1}
+#   1   1   1   0   0 
+# data_out =    22
+# 
+# clk: 1, reset: 1
+# ** Note: $finish    : testbench.v(222)
+#    Time: 430 ns  Iteration: 0  Instance: /testbench
+on: 0  Instance: /testbench

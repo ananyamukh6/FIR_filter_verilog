@@ -1,0 +1,69 @@
+# vsim -L ../../../bin -do ./util/simulate-do -c -lic_plus -quiet -novopt testbench 
+# Refreshing /afs/glue.umd.edu/home/glue/a/n/ananya/home/enpm674_user/Project2/part3_latest/test/test-fir-functionality/test05/work.testbench
+# do ./util/simulate-do 
+#  0 - coef_enable: x, sample_enable: 0, error: 0, data_in:   0, data_out:     0, curr: x, nextst: x, count:           0, coeff: '{ 0,  0,  0,  0,  0}, sum:     0
+# '{ 0,  0,  0,  0}
+#  5 - coef_enable: x, sample_enable: 0, error: 0, data_in:   0, data_out:     0, curr: 0, nextst: 0, count:           0, coeff: '{ 0,  0,  0,  0,  0}, sum:     0
+# 10 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   4, data_out:     0, curr: 0, nextst: 1, count:           0, coeff: '{ 0,  0,  0,  0,  0}, sum:     0
+# '{ 0,  0,  0,  0}
+# 20 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   4, data_out:     0, curr: 1, nextst: 1, count:           1, coeff: '{ 0,  0,  0,  0,  4}, sum:     0
+# 30 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   5, data_out:     0, curr: 1, nextst: 1, count:           1, coeff: '{ 0,  0,  0,  0,  4}, sum:     0
+# '{ 0,  0,  0,  0}
+# 40 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   5, data_out:     0, curr: 1, nextst: 1, count:           2, coeff: '{ 0,  0,  0,  5,  4}, sum:     0
+# 50 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   6, data_out:     0, curr: 1, nextst: 1, count:           2, coeff: '{ 0,  0,  0,  5,  4}, sum:     0
+# '{ 0,  0,  0,  0}
+# 60 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   6, data_out:     0, curr: 1, nextst: 1, count:           3, coeff: '{ 0,  0,  6,  5,  4}, sum:     0
+# 70 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   7, data_out:     0, curr: 1, nextst: 1, count:           3, coeff: '{ 0,  0,  6,  5,  4}, sum:     0
+# '{ 0,  0,  0,  0}
+# 80 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   7, data_out:     0, curr: 1, nextst: 1, count:           4, coeff: '{ 0,  7,  6,  5,  4}, sum:     0
+# 90 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   8, data_out:     0, curr: 1, nextst: 1, count:           4, coeff: '{ 0,  7,  6,  5,  4}, sum:     0
+# '{ 0,  0,  0,  0}
+# 100 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   8, data_out:     0, curr: 1, nextst: 1, count:           0, coeff: '{ 8,  7,  6,  5,  4}, sum:     0
+# 110 - coef_enable: 0, sample_enable: 0, error: 0, data_in:   8, data_out:     0, curr: 1, nextst: 2, count:           0, coeff: '{ 8,  7,  6,  5,  4}, sum:     0
+# '{ 0,  0,  0,  0}
+# 120 - coef_enable: 0, sample_enable: 0, error: 0, data_in:   8, data_out:    32, curr: 2, nextst: 2, count:           0, coeff: '{ 8,  7,  6,  5,  4}, sum:    32
+# 130 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:     4, curr: 2, nextst: 2, count:           0, coeff: '{ 8,  7,  6,  5,  4}, sum:     4
+# '{ 0,  0,  0,  0}
+#   1   0   0   0   0 
+# 140 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:     9, curr: 2, nextst: 2, count:           1, coeff: '{ 8,  7,  6,  5,  4}, sum:     9
+# '{ 0,  0,  0,  1}
+#   1   1   0   0   0 
+# 160 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:    15, curr: 2, nextst: 2, count:           2, coeff: '{ 8,  7,  6,  5,  4}, sum:    15
+# 170 - coef_enable: 1, sample_enable: 0, error: 0, data_in:  10, data_out:    51, curr: 2, nextst: 1, count:           2, coeff: '{ 8,  7,  6,  5,  4}, sum:    51
+# '{ 0,  0,  1,  1}
+# 180 - coef_enable: 1, sample_enable: 0, error: 0, data_in:  10, data_out:     0, curr: 1, nextst: 1, count:           1, coeff: '{ 8,  7,  6,  5, 10}, sum:     0
+# 190 - coef_enable: 1, sample_enable: 0, error: 0, data_in:  11, data_out:     0, curr: 1, nextst: 1, count:           1, coeff: '{ 8,  7,  6,  5, 10}, sum:     0
+# '{ 0,  0,  1,  1}
+# 200 - coef_enable: 1, sample_enable: 0, error: 0, data_in:  11, data_out:     0, curr: 1, nextst: 1, count:           2, coeff: '{ 8,  7,  6, 11, 10}, sum:     0
+# 210 - coef_enable: 1, sample_enable: 0, error: 0, data_in:  12, data_out:     0, curr: 1, nextst: 1, count:           2, coeff: '{ 8,  7,  6, 11, 10}, sum:     0
+# '{ 0,  0,  1,  1}
+# 220 - coef_enable: 1, sample_enable: 0, error: 0, data_in:  12, data_out:     0, curr: 1, nextst: 1, count:           3, coeff: '{ 8,  7, 12, 11, 10}, sum:     0
+# 230 - coef_enable: 1, sample_enable: 0, error: 0, data_in:  13, data_out:     0, curr: 1, nextst: 1, count:           3, coeff: '{ 8,  7, 12, 11, 10}, sum:     0
+# '{ 0,  0,  1,  1}
+# 240 - coef_enable: 1, sample_enable: 0, error: 0, data_in:  13, data_out:     0, curr: 1, nextst: 1, count:           4, coeff: '{ 8, 13, 12, 11, 10}, sum:     0
+# 250 - coef_enable: 1, sample_enable: 0, error: 0, data_in:  14, data_out:     0, curr: 1, nextst: 1, count:           4, coeff: '{ 8, 13, 12, 11, 10}, sum:     0
+# '{ 0,  0,  1,  1}
+# 260 - coef_enable: 1, sample_enable: 0, error: 0, data_in:  14, data_out:     0, curr: 1, nextst: 1, count:           0, coeff: '{14, 13, 12, 11, 10}, sum:     0
+# 270 - coef_enable: 0, sample_enable: 0, error: 0, data_in:  14, data_out:     0, curr: 1, nextst: 2, count:           0, coeff: '{14, 13, 12, 11, 10}, sum:     0
+# '{ 0,  0,  1,  1}
+# 280 - coef_enable: 0, sample_enable: 0, error: 0, data_in:  14, data_out:   167, curr: 2, nextst: 2, count:           0, coeff: '{14, 13, 12, 11, 10}, sum:   167
+# 290 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   2, data_out:    47, curr: 2, nextst: 2, count:           0, coeff: '{14, 13, 12, 11, 10}, sum:    47
+# '{ 0,  0,  1,  1}
+#   2   0   0   1   1 
+# 300 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   2, data_out:    56, curr: 2, nextst: 2, count:           1, coeff: '{14, 13, 12, 11, 10}, sum:    56
+# 310 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:    46, curr: 2, nextst: 2, count:           1, coeff: '{14, 13, 12, 11, 10}, sum:    46
+# '{ 0,  0,  1,  2}
+#   1   2   0   0   1 
+# 320 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:    45, curr: 2, nextst: 2, count:           2, coeff: '{14, 13, 12, 11, 10}, sum:    45
+# '{ 0,  0,  1,  2}
+#   1   1   2   0   0 
+# 340 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:    59, curr: 2, nextst: 2, count:           3, coeff: '{14, 13, 12, 11, 10}, sum:    59
+# '{ 0,  1,  1,  2}
+#   1   1   1   2   0 
+# 360 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:    74, curr: 2, nextst: 2, count:           0, coeff: '{14, 13, 12, 11, 10}, sum:    74
+# '{ 1,  1,  1,  2}
+#   1   1   1   1   2 
+# 380 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:    60, curr: 2, nextst: 2, count:           1, coeff: '{14, 13, 12, 11, 10}, sum:    60
+# ** Note: $finish    : testbench.v(201)
+#    Time: 390 ns  Iteration: 0  Instance: /testbench
+on: 0  Instance: /testbench

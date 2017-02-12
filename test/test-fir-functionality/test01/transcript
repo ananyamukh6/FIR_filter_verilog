@@ -1,0 +1,40 @@
+# vsim -L ../../../bin -do ./util/simulate-do -c -lic_plus -quiet -novopt testbench 
+# Refreshing /afs/glue.umd.edu/home/glue/a/n/ananya/home/enpm674_user/Project2/part3_latest/test/test-fir-functionality/test01/work.testbench
+# do ./util/simulate-do 
+#  0 - coef_enable: x, sample_enable: 0, error: 0, data_in:   0, data_out:     0, out_enable: 0, curr: x, nextst: x, count:           0, coeff: '{ 0,  0,  0,  0,  0}, sum:     0
+# '{ 0,  0,  0,  0}
+#  5 - coef_enable: x, sample_enable: 0, error: 0, data_in:   0, data_out:     0, out_enable: 0, curr: 0, nextst: 0, count:           0, coeff: '{ 0,  0,  0,  0,  0}, sum:     0
+# 10 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   4, data_out:     0, out_enable: 0, curr: 0, nextst: 1, count:           0, coeff: '{ 0,  0,  0,  0,  0}, sum:     0
+# '{ 0,  0,  0,  0}
+# 20 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   4, data_out:     0, out_enable: 0, curr: 1, nextst: 1, count:           1, coeff: '{ 0,  0,  0,  0,  4}, sum:     0
+# 30 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   5, data_out:     0, out_enable: 0, curr: 1, nextst: 1, count:           1, coeff: '{ 0,  0,  0,  0,  4}, sum:     0
+# '{ 0,  0,  0,  0}
+# 40 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   5, data_out:     0, out_enable: 0, curr: 1, nextst: 1, count:           2, coeff: '{ 0,  0,  0,  5,  4}, sum:     0
+# 50 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   6, data_out:     0, out_enable: 0, curr: 1, nextst: 1, count:           2, coeff: '{ 0,  0,  0,  5,  4}, sum:     0
+# '{ 0,  0,  0,  0}
+# 60 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   6, data_out:     0, out_enable: 0, curr: 1, nextst: 1, count:           3, coeff: '{ 0,  0,  6,  5,  4}, sum:     0
+# 70 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   7, data_out:     0, out_enable: 0, curr: 1, nextst: 1, count:           3, coeff: '{ 0,  0,  6,  5,  4}, sum:     0
+# '{ 0,  0,  0,  0}
+# 80 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   7, data_out:     0, out_enable: 0, curr: 1, nextst: 1, count:           4, coeff: '{ 0,  7,  6,  5,  4}, sum:     0
+# 90 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   8, data_out:     0, out_enable: 0, curr: 1, nextst: 1, count:           4, coeff: '{ 0,  7,  6,  5,  4}, sum:     0
+# '{ 0,  0,  0,  0}
+# 100 - coef_enable: 1, sample_enable: 0, error: 0, data_in:   8, data_out:     0, out_enable: 0, curr: 1, nextst: 1, count:           0, coeff: '{ 8,  7,  6,  5,  4}, sum:     0
+# 110 - coef_enable: 0, sample_enable: 0, error: 0, data_in:   8, data_out:     0, out_enable: 0, curr: 1, nextst: 2, count:           0, coeff: '{ 8,  7,  6,  5,  4}, sum:     0
+# '{ 0,  0,  0,  0}
+# 120 - coef_enable: 0, sample_enable: 0, error: 0, data_in:   8, data_out:    32, out_enable: 0, curr: 2, nextst: 2, count:           0, coeff: '{ 8,  7,  6,  5,  4}, sum:    32
+# 130 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:     4, out_enable: 1, curr: 2, nextst: 2, count:           0, coeff: '{ 8,  7,  6,  5,  4}, sum:     4
+# '{ 0,  0,  0,  0}
+#   1   0   0   0   0 
+# 140 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:     9, out_enable: 1, curr: 2, nextst: 2, count:           1, coeff: '{ 8,  7,  6,  5,  4}, sum:     9
+# '{ 0,  0,  0,  1}
+#   1   1   0   0   0 
+# 160 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:    15, out_enable: 1, curr: 2, nextst: 2, count:           2, coeff: '{ 8,  7,  6,  5,  4}, sum:    15
+# '{ 0,  0,  1,  1}
+#   1   1   1   0   0 
+# 180 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:    22, out_enable: 1, curr: 2, nextst: 2, count:           3, coeff: '{ 8,  7,  6,  5,  4}, sum:    22
+# '{ 0,  1,  1,  1}
+#   1   1   1   1   0 
+# 200 - coef_enable: 0, sample_enable: 1, error: 0, data_in:   1, data_out:    30, out_enable: 1, curr: 2, nextst: 2, count:           0, coeff: '{ 8,  7,  6,  5,  4}, sum:    30
+# ** Note: $finish    : testbench.v(162)
+#    Time: 220 ns  Iteration: 0  Instance: /testbench
+on: 0  Instance: /testbench

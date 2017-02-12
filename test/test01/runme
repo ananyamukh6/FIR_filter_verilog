@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+#echo '' > temp.txt
+./util/runtest
+# > temp.txt
+#python postprocess.py
+#rm temp.txt
+#cat out.txt
